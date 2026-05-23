@@ -1,0 +1,7 @@
+[
+  {"date":"2014-05-02","price":313000,"bedrooms":3,"bathrooms":1.5,"sqft_living":1340,"sqft_lot":7912,"floors":1.5,"waterfront":0,"view":0,"condition":3,"sqft_above":1340,"sqft_basement":0,"yr_built":1955,"yr_renovated":2005,"city":"Shoreline"},
+  {"date":"2014-05-02","price":2384000,"bedrooms":5,"bathrooms":2.5,"sqft_living":3650,"sqft_lot":9050,"floors":2,"waterfront":0,"view":4,"condition":5,"sqft_above":3370,"sqft_basement":280,"yr_built":1921,"yr_renovated":0,"city":"Seattle"},
+  {"date":"2014-05-02","price":342000,"bedrooms":3,"bathrooms":2,"sqft_living":1930,"sqft_lot":11947,"floors":1,"waterfront":0,"view":0,"condition":4,"sqft_above":1930,"sqft_basement":0,"yr_built":1966,"yr_renovated":0,"city":"Kent"},
+  {"date":"2014-05-02","price":420000,"bedrooms":3,"bathrooms":2.25,"sqft_living":2000,"sqft_lot":8030,"floors":1,"waterfront":0,"view":0,"condition":4,"sqft_above":1000,"sqft_basement":1000,"yr_built":1963,"yr_renovated":0,"city":"Bellevue"},
+  {"date":"2014-05-02","price":550000,"bedrooms":4,"bathrooms":2.5,"sqft_living":2710,"sqft_lot":9500,"floors":2,"waterfront":0,"view":0,"condition":3,"sqft_above":2710,"sqft_basement":0,"yr_built":1985,"yr_renovated":0,"city":"Redmond"}
+]

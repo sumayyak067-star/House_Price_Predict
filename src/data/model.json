@@ -1,0 +1,630 @@
+{
+  "intercept": 1942282.2884866348,
+  "coefficients": {
+    "bedrooms": -44436.138760002046,
+    "bathrooms": 23074.78837574441,
+    "sqft_living": 155.1280720566662,
+    "sqft_lot": -0.03534786661086997,
+    "floors": 23152.55734135449,
+    "waterfront": 486003.99396582047,
+    "view": 47375.53780974244,
+    "condition": 29967.17023493508,
+    "sqft_above": 108.29896110697882,
+    "sqft_basement": 46.82840348657919,
+    "yr_built": -1112.2947584000358,
+    "yr_renovated": 3.8082240740186535,
+    "city_Auburn": 3394.934905915172,
+    "city_Beaux Arts Village": 540045.9798461957,
+    "city_Bellevue": 374698.33503323793,
+    "city_Black Diamond": 78306.36376514155,
+    "city_Bothell": 119030.63522012111,
+    "city_Burien": 47613.01139035793,
+    "city_Carnation": 75767.52825130732,
+    "city_Clyde Hill": 780605.386284965,
+    "city_Covington": 3044.212554563768,
+    "city_Des Moines": 2140.090504420128,
+    "city_Duvall": 87577.84296596915,
+    "city_Enumclaw": -32598.17605651819,
+    "city_Fall City": 183844.77479538223,
+    "city_Federal Way": -20106.348296399403,
+    "city_Inglewood-Finn Hill": 1.0477378964424133e-09,
+    "city_Issaquah": 189948.42335326894,
+    "city_Kenmore": 134848.9754945594,
+    "city_Kent": 14115.757212934783,
+    "city_Kirkland": 286236.76171676675,
+    "city_Lake Forest Park": 105461.06905116688,
+    "city_Maple Valley": 30999.387897169858,
+    "city_Medina": 1144528.6395178759,
+    "city_Mercer Island": 494992.958064587,
+    "city_Milton": 168062.3699872289,
+    "city_Newcastle": 190160.29470702598,
+    "city_Normandy Park": 119376.35327092685,
+    "city_North Bend": 77891.95920670088,
+    "city_Pacific": 46732.633920583234,
+    "city_Preston": 73821.05535248885,
+    "city_Ravensdale": -1130.492075854534,
+    "city_Redmond": 255140.80680346733,
+    "city_Renton": 56545.50424785173,
+    "city_Sammamish": 184941.04101781413,
+    "city_SeaTac": 46799.41598872392,
+    "city_Seattle": 276878.2169668592,
+    "city_Shoreline": 158687.87264188883,
+    "city_Skykomish": 57432.022098213565,
+    "city_Snoqualmie": 43796.59712873693,
+    "city_Snoqualmie Pass": 214526.5981091878,
+    "city_Tukwila": 93050.80878597709,
+    "city_Vashon": 10716.081430621736,
+    "city_Woodinville": 145838.99992059142,
+    "city_Yarrow Point": 741486.3334908612
+  },
+  "featureNames": [
+    "bedrooms",
+    "bathrooms",
+    "sqft_living",
+    "sqft_lot",
+    "floors",
+    "waterfront",
+    "view",
+    "condition",
+    "sqft_above",
+    "sqft_basement",
+    "yr_built",
+    "yr_renovated",
+    "city_Auburn",
+    "city_Beaux Arts Village",
+    "city_Bellevue",
+    "city_Black Diamond",
+    "city_Bothell",
+    "city_Burien",
+    "city_Carnation",
+    "city_Clyde Hill",
+    "city_Covington",
+    "city_Des Moines",
+    "city_Duvall",
+    "city_Enumclaw",
+    "city_Fall City",
+    "city_Federal Way",
+    "city_Inglewood-Finn Hill",
+    "city_Issaquah",
+    "city_Kenmore",
+    "city_Kent",
+    "city_Kirkland",
+    "city_Lake Forest Park",
+    "city_Maple Valley",
+    "city_Medina",
+    "city_Mercer Island",
+    "city_Milton",
+    "city_Newcastle",
+    "city_Normandy Park",
+    "city_North Bend",
+    "city_Pacific",
+    "city_Preston",
+    "city_Ravensdale",
+    "city_Redmond",
+    "city_Renton",
+    "city_Sammamish",
+    "city_SeaTac",
+    "city_Seattle",
+    "city_Shoreline",
+    "city_Skykomish",
+    "city_Snoqualmie",
+    "city_Snoqualmie Pass",
+    "city_Tukwila",
+    "city_Vashon",
+    "city_Woodinville",
+    "city_Yarrow Point"
+  ],
+  "cityDummies": [
+    "city_Auburn",
+    "city_Beaux Arts Village",
+    "city_Bellevue",
+    "city_Black Diamond",
+    "city_Bothell",
+    "city_Burien",
+    "city_Carnation",
+    "city_Clyde Hill",
+    "city_Covington",
+    "city_Des Moines",
+    "city_Duvall",
+    "city_Enumclaw",
+    "city_Fall City",
+    "city_Federal Way",
+    "city_Inglewood-Finn Hill",
+    "city_Issaquah",
+    "city_Kenmore",
+    "city_Kent",
+    "city_Kirkland",
+    "city_Lake Forest Park",
+    "city_Maple Valley",
+    "city_Medina",
+    "city_Mercer Island",
+    "city_Milton",
+    "city_Newcastle",
+    "city_Normandy Park",
+    "city_North Bend",
+    "city_Pacific",
+    "city_Preston",
+    "city_Ravensdale",
+    "city_Redmond",
+    "city_Renton",
+    "city_Sammamish",
+    "city_SeaTac",
+    "city_Seattle",
+    "city_Shoreline",
+    "city_Skykomish",
+    "city_Snoqualmie",
+    "city_Snoqualmie Pass",
+    "city_Tukwila",
+    "city_Vashon",
+    "city_Woodinville",
+    "city_Yarrow Point"
+  ],
+  "metrics": {
+    "mae": 172954.68320473167,
+    "rmse": 988713.7188316458,
+    "r2": 0.04146852385374644,
+    "trainMae": 125763.50528159003,
+    "trainRmse": 220869.72787762037,
+    "trainR2": 0.6566623543677035
+  },
+  "datasetStats": {
+    "totalRecords": 4600,
+    "featureCount": 55,
+    "avgPrice": 551962.9884732141,
+    "minPrice": 0.0,
+    "maxPrice": 26590000.0,
+    "avgSqft": 2139.3469565217392,
+    "cityCount": 44
+  },
+  "distributionData": [
+    {
+      "name": "<$200k",
+      "count": 189
+    },
+    {
+      "name": "$200k\u2013$400k",
+      "count": 1567
+    },
+    {
+      "name": "$400k\u2013$600k",
+      "count": 1417
+    },
+    {
+      "name": "$600k\u2013$800k",
+      "count": 718
+    },
+    {
+      "name": "$800k\u2013$1M",
+      "count": 320
+    },
+    {
+      "name": ">$1M",
+      "count": 340
+    }
+  ],
+  "scatterData": [
+    {
+      "sqft": 1460,
+      "price": 544000.0
+    },
+    {
+      "sqft": 2000,
+      "price": 0.0
+    },
+    {
+      "sqft": 2940,
+      "price": 1712500.0
+    },
+    {
+      "sqft": 2200,
+      "price": 365000.0
+    },
+    {
+      "sqft": 1720,
+      "price": 275000.0
+    },
+    {
+      "sqft": 2820,
+      "price": 625000.0
+    },
+    {
+      "sqft": 2120,
+      "price": 453000.0
+    },
+    {
+      "sqft": 2090,
+      "price": 300000.0
+    },
+    {
+      "sqft": 2070,
+      "price": 417985.714286
+    },
+    {
+      "sqft": 2110,
+      "price": 672500.0
+    },
+    {
+      "sqft": 3030,
+      "price": 525000.0
+    },
+    {
+      "sqft": 950,
+      "price": 500000.0
+    },
+    {
+      "sqft": 3220,
+      "price": 590000.0
+    },
+    {
+      "sqft": 2100,
+      "price": 305000.0
+    },
+    {
+      "sqft": 1590,
+      "price": 210000.0
+    },
+    {
+      "sqft": 2930,
+      "price": 915000.0
+    },
+    {
+      "sqft": 2690,
+      "price": 675000.0
+    },
+    {
+      "sqft": 2680,
+      "price": 630000.0
+    },
+    {
+      "sqft": 3400,
+      "price": 1690000.0
+    },
+    {
+      "sqft": 3670,
+      "price": 883000.0
+    },
+    {
+      "sqft": 2810,
+      "price": 1700000.0
+    },
+    {
+      "sqft": 2730,
+      "price": 612500.0
+    },
+    {
+      "sqft": 2360,
+      "price": 615000.0
+    },
+    {
+      "sqft": 2010,
+      "price": 590000.0
+    },
+    {
+      "sqft": 830,
+      "price": 301500.0
+    },
+    {
+      "sqft": 780,
+      "price": 87500.0
+    },
+    {
+      "sqft": 2620,
+      "price": 746000.0
+    },
+    {
+      "sqft": 3160,
+      "price": 950100.0
+    },
+    {
+      "sqft": 1340,
+      "price": 415000.0
+    },
+    {
+      "sqft": 2540,
+      "price": 775000.0
+    },
+    {
+      "sqft": 6210,
+      "price": 3200000.0
+    },
+    {
+      "sqft": 1220,
+      "price": 253000.0
+    },
+    {
+      "sqft": 4670,
+      "price": 1415000.0
+    },
+    {
+      "sqft": 2300,
+      "price": 312891.0
+    },
+    {
+      "sqft": 1120,
+      "price": 252000.0
+    },
+    {
+      "sqft": 2130,
+      "price": 325000.0
+    },
+    {
+      "sqft": 3360,
+      "price": 455000.0
+    },
+    {
+      "sqft": 3700,
+      "price": 540000.0
+    },
+    {
+      "sqft": 1200,
+      "price": 215000.0
+    },
+    {
+      "sqft": 2290,
+      "price": 653000.0
+    }
+  ],
+  "bedroomDistribution": [
+    {
+      "bedrooms": "0",
+      "count": 2
+    },
+    {
+      "bedrooms": "1",
+      "count": 38
+    },
+    {
+      "bedrooms": "2",
+      "count": 566
+    },
+    {
+      "bedrooms": "3",
+      "count": 2032
+    },
+    {
+      "bedrooms": "4",
+      "count": 1531
+    },
+    {
+      "bedrooms": "5",
+      "count": 353
+    },
+    {
+      "bedrooms": "6+",
+      "count": 78
+    }
+  ],
+  "correlationData": [
+    {
+      "feature": "Price",
+      "price": 1.0,
+      "sqftLiving": 0.43,
+      "bathrooms": 0.33,
+      "sqftAbove": 0.37,
+      "view": 0.23
+    },
+    {
+      "feature": "Sqft Living",
+      "price": 0.43,
+      "sqftLiving": 1.0,
+      "bathrooms": 0.76,
+      "sqftAbove": 0.88,
+      "view": 0.31
+    },
+    {
+      "feature": "Bathrooms",
+      "price": 0.33,
+      "sqftLiving": 0.76,
+      "bathrooms": 1.0,
+      "sqftAbove": 0.69,
+      "view": 0.21
+    },
+    {
+      "feature": "Sqft Above",
+      "price": 0.37,
+      "sqftLiving": 0.88,
+      "bathrooms": 0.69,
+      "sqftAbove": 1.0,
+      "view": 0.17
+    },
+    {
+      "feature": "View",
+      "price": 0.23,
+      "sqftLiving": 0.31,
+      "bathrooms": 0.21,
+      "sqftAbove": 0.17,
+      "view": 1.0
+    }
+  ],
+  "featureImportance": [
+    {
+      "feature": "Waterfront",
+      "importance": 0.42,
+      "color": "#3b82f6"
+    }
+  ],
+  "priceByCityData": [
+    {
+      "city": "Medina",
+      "avgPrice": 2046559
+    },
+    {
+      "city": "Clyde Hill",
+      "avgPrice": 1321945
+    },
+    {
+      "city": "Yarrow Point",
+      "avgPrice": 1194837
+    },
+    {
+      "city": "Mercer Island",
+      "avgPrice": 1123817
+    },
+    {
+      "city": "Bellevue",
+      "avgPrice": 847180
+    },
+    {
+      "city": "Beaux Arts Village",
+      "avgPrice": 745000
+    },
+    {
+      "city": "Fall City",
+      "avgPrice": 692681
+    },
+    {
+      "city": "Sammamish",
+      "avgPrice": 686917
+    },
+    {
+      "city": "Redmond",
+      "avgPrice": 667649
+    },
+    {
+      "city": "Newcastle",
+      "avgPrice": 666046
+    }
+  ],
+  "actualVsPredicted": [
+    {
+      "actual": 255000.0,
+      "predicted": 275072.2705772524
+    },
+    {
+      "actual": 348500.0,
+      "predicted": 214262.92617001035
+    },
+    {
+      "actual": 220600.0,
+      "predicted": 214632.17310548155
+    },
+    {
+      "actual": 272000.0,
+      "predicted": 122483.22256756853
+    },
+    {
+      "actual": 309212.0,
+      "predicted": 149340.96414717194
+    },
+    {
+      "actual": 357186.0,
+      "predicted": 298494.24429402966
+    },
+    {
+      "actual": 545000.0,
+      "predicted": 559043.2381180474
+    },
+    {
+      "actual": 568500.0,
+      "predicted": 576528.781543327
+    },
+    {
+      "actual": 2150000.0,
+      "predicted": 1501442.152891321
+    },
+    {
+      "actual": 325000.0,
+      "predicted": 304590.42221944546
+    },
+    {
+      "actual": 380000.0,
+      "predicted": 442786.9273079969
+    },
+    {
+      "actual": 569000.0,
+      "predicted": 756648.7054231996
+    },
+    {
+      "actual": 680000.0,
+      "predicted": 642020.9802562222
+    },
+    {
+      "actual": 485000.0,
+      "predicted": 400911.12405026634
+    },
+    {
+      "actual": 206000.0,
+      "predicted": 138057.29270624788
+    },
+    {
+      "actual": 1307000.0,
+      "predicted": 797981.9358315724
+    },
+    {
+      "actual": 330000.0,
+      "predicted": 516775.9131762623
+    },
+    {
+      "actual": 500000.0,
+      "predicted": 554231.7524958276
+    },
+    {
+      "actual": 782000.0,
+      "predicted": 699879.1098072161
+    },
+    {
+      "actual": 425000.0,
+      "predicted": 495255.1534414913
+    }
+  ],
+  "performanceData": [
+    {
+      "name": "Training Set",
+      "r2": 0.6566623543677035,
+      "mae": 125763.50528159003,
+      "rmse": 220869.72787762037
+    },
+    {
+      "name": "Test Set",
+      "r2": 0.04146852385374644,
+      "mae": 172954.68320473167,
+      "rmse": 988713.7188316458
+    }
+  ],
+  "cities": [
+    "Algona",
+    "Auburn",
+    "Beaux Arts Village",
+    "Bellevue",
+    "Black Diamond",
+    "Bothell",
+    "Burien",
+    "Carnation",
+    "Clyde Hill",
+    "Covington",
+    "Des Moines",
+    "Duvall",
+    "Enumclaw",
+    "Fall City",
+    "Federal Way",
+    "Inglewood-Finn Hill",
+    "Issaquah",
+    "Kenmore",
+    "Kent",
+    "Kirkland",
+    "Lake Forest Park",
+    "Maple Valley",
+    "Medina",
+    "Mercer Island",
+    "Milton",
+    "Newcastle",
+    "Normandy Park",
+    "North Bend",
+    "Pacific",
+    "Preston",
+    "Ravensdale",
+    "Redmond",
+    "Renton",
+    "Sammamish",
+    "SeaTac",
+    "Seattle",
+    "Shoreline",
+    "Skykomish",
+    "Snoqualmie",
+    "Snoqualmie Pass",
+    "Tukwila",
+    "Vashon",
+    "Woodinville",
+    "Yarrow Point"
+  ]
+}
